@@ -1,18 +1,36 @@
-'use strict';
 
 const gulp = require('gulp');
+const webfontsGenerator = require('webfonts-generator');
+var fs = require('fs');
 
 
-var svgicons2svgfont = require('gulp-svgicons2svgfont');
+gulp.task('Iconfont', function (done) {
 
-gulp.task('Iconfont', function(){
-    svgicons2svgfont(['assets/icons/*.svg'], {
-      fontName: 'myfont'
+  var allIcons = []
+  fs.readdir('icons', function (err, items) {
+    console.log(items);
+
+    for (var i = 0; i < items.length; i++) {
+      allIcons.push('icons/' + items[i])
+      console.log(items[i]);
+    }
+
+    webfontsGenerator({
+      files: allIcons,
+      templateOptions: {
+        classPrefix: 'icon-',
+        baseSelector: '.icon'
+      },
+      dest: 'dest/',
+    }, function (error) {
+      if (error) {
+        console.log('Fail!', error);
+      } else {
+        console.log('Done!');
+      }
     })
-    .on('glyphs', function(glyphs) {
-      console.log(glyphs);
-      // Here generate CSS/SCSS  for your glyphs ...
-    })
-    .pipe(gulp.dest('www/font/'));
+  });
+
+  done()
 });
 

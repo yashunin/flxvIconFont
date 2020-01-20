@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wwwcoderwww/SVGFont/issues"
   },
-  "homepage": "https://github.com/wwwcoderwww/SVGFont#readme"
+  "homepage": "https://github.com/wwwcoderwww/SVGFont#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-svgicons2svgfont": "^6.0.0"
+  }
 }

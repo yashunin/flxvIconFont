@@ -1,0 +1,20 @@
+{
+  "name": "SVGFont",
+  "version": "1.0.0",
+  "description": "Библиотека для преобразования SVG иконок в шрифт",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwcoderwww/SVGFont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwwcoderwww/SVGFont/issues"
+  },
+  "homepage": "https://github.com/wwwcoderwww/SVGFont#readme"
+}

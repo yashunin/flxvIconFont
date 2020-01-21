@@ -1,0 +1,8 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="placemark">
+     <g fill="none" fill-rule="evenodd">
+         <path d="M0 0h24v24H0z"></path>
+         <path fill="#51241E" stroke="#51241E"
+             d="M4 9c0 5.25 5.714 13 8 13 2.286 0 8-7.75 8-13 0-3.87-3.577-7-8-7S4 5.13 4 9zm8 4c-2.208 0-4-1.792-4-4s1.792-4 4-4 4 1.792 4 4-1.792 4-4 4z">
+         </path>
+     </g>
+ </svg>

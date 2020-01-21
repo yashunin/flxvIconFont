@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "iconfont";
-	src: url("iconfont.eot?bfb2428e2bc50488a7119403e25e0894?#iefix") format("embedded-opentype"),
-url("iconfont.woff2?bfb2428e2bc50488a7119403e25e0894") format("woff2"),
-url("iconfont.woff?bfb2428e2bc50488a7119403e25e0894") format("woff");
+	src: url("iconfont.eot?0291ccdf9f20bc6e0d962ab182806745?#iefix") format("embedded-opentype"),
+url("iconfont.woff2?0291ccdf9f20bc6e0d962ab182806745") format("woff2"),
+url("iconfont.woff?0291ccdf9f20bc6e0d962ab182806745") format("woff");
 }
 
 .icon {
@@ -16,12 +16,33 @@ url("iconfont.woff?bfb2428e2bc50488a7119403e25e0894") format("woff");
 	vertical-align: top;
 }
 
-.icon-account-convert:before {
+.icon-ArrowLeft:before {
 	content: "\f101";
 }
-.icon-rotate-left:before {
+.icon-ArrowTop:before {
 	content: "\f102";
 }
-.icon-rotate-right:before {
+.icon-ArrowTopBlack:before {
 	content: "\f103";
+}
+.icon-arrow-back:before {
+	content: "\f104";
+}
+.icon-basket:before {
+	content: "\f105";
+}
+.icon-close:before {
+	content: "\f106";
+}
+.icon-filter:before {
+	content: "\f107";
+}
+.icon-like:before {
+	content: "\f108";
+}
+.icon-placemark:before {
+	content: "\f109";
+}
+.icon-search:before {
+	content: "\f10a";
 }

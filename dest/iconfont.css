@@ -30,6 +30,9 @@ url("iconfont.woff?0291ccdf9f20bc6e0d962ab182806745") format("woff");
 }
 .icon-basket:before {
 	content: "\f105";
+	width: 50px;
+	height: 50px;
+	background-color: red;
 }
 .icon-close:before {
 	content: "\f106";

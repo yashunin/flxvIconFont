@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wwwcoderwww/SVGFont#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-iconfont": "^10.0.3",
     "gulp-svgicons2svgfont": "^6.0.0",
     "webfonts-generator": "^0.4.0"
   },

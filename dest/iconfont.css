@@ -1,48 +1,48 @@
 @font-face {
 	font-family: "iconfont";
-	src: url("iconfont.eot?0291ccdf9f20bc6e0d962ab182806745?#iefix") format("embedded-opentype"),
-url("iconfont.woff2?0291ccdf9f20bc6e0d962ab182806745") format("woff2"),
-url("iconfont.woff?0291ccdf9f20bc6e0d962ab182806745") format("woff");
+	src: url("iconfont.eot?1c13c70d3752383fbaf7b85e97a5e782?#iefix") format("embedded-opentype"),
+url("iconfont.woff2?1c13c70d3752383fbaf7b85e97a5e782") format("woff2"),
+url("iconfont.woff?1c13c70d3752383fbaf7b85e97a5e782") format("woff");
 }
 
-.icon {
+.iconfont {
 	line-height: 1;
 }
 
-.icon:before {
+.iconfont:before {
 	font-family: iconfont !important;
 	font-style: normal;
 	font-weight: normal !important;
 	vertical-align: top;
 }
 
-.icon-ArrowLeft:before {
+.iconfont-ArrowLeft:before {
 	content: "\f101";
 }
-.icon-ArrowTop:before {
+.iconfont-ArrowTop:before {
 	content: "\f102";
 }
-.icon-ArrowTopBlack:before {
+.iconfont-ArrowTopBlack:before {
 	content: "\f103";
 }
-.icon-arrow-back:before {
+.iconfont-arrow-back:before {
 	content: "\f104";
 }
-.icon-basket:before {
+.iconfont-basket:before {
 	content: "\f105";
 }
-.icon-close:before {
+.iconfont-close:before {
 	content: "\f106";
 }
-.icon-filter:before {
+.iconfont-filter:before {
 	content: "\f107";
 }
-.icon-like:before {
+.iconfont-like:before {
 	content: "\f108";
 }
-.icon-placemark:before {
+.iconfont-placemark:before {
 	content: "\f109";
 }
-.icon-search:before {
+.iconfont-search:before {
 	content: "\f10a";
 }

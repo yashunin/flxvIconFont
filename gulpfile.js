@@ -17,9 +17,10 @@ gulp.task('Iconfont', function (done) {
 
     webfontsGenerator({
       files: allIcons,
+      fontHeight: 1000,
       templateOptions: {
-        classPrefix: 'icon-',
-        baseSelector: '.icon'
+        classPrefix: 'iconfont-',
+        baseSelector: '.iconfont'
       },
       dest: 'dest/',
     }, function (error) {

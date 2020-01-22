@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "iconfont";
-	src: url("iconfont.eot?1c13c70d3752383fbaf7b85e97a5e782?#iefix") format("embedded-opentype"),
-url("iconfont.woff2?1c13c70d3752383fbaf7b85e97a5e782") format("woff2"),
-url("iconfont.woff?1c13c70d3752383fbaf7b85e97a5e782") format("woff");
+	src: url("iconfont.eot?cf116528280971625f40c4cae63a2fb8?#iefix") format("embedded-opentype"),
+url("iconfont.woff2?cf116528280971625f40c4cae63a2fb8") format("woff2"),
+url("iconfont.woff?cf116528280971625f40c4cae63a2fb8") format("woff");
 }
 
 .iconfont {
@@ -31,18 +31,33 @@ url("iconfont.woff?1c13c70d3752383fbaf7b85e97a5e782") format("woff");
 .iconfont-basket:before {
 	content: "\f105";
 }
-.iconfont-close:before {
+.iconfont-cash:before {
 	content: "\f106";
 }
-.iconfont-filter:before {
+.iconfont-close:before {
 	content: "\f107";
 }
-.iconfont-like:before {
+.iconfont-cross:before {
 	content: "\f108";
 }
-.iconfont-placemark:before {
+.iconfont-delivery:before {
 	content: "\f109";
 }
-.iconfont-search:before {
+.iconfont-deliveryDoor:before {
 	content: "\f10a";
+}
+.iconfont-filter:before {
+	content: "\f10b";
+}
+.iconfont-fullLogo:before {
+	content: "\f10c";
+}
+.iconfont-like:before {
+	content: "\f10d";
+}
+.iconfont-placemark:before {
+	content: "\f10e";
+}
+.iconfont-search:before {
+	content: "\f10f";
 }

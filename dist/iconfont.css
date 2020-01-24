@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "iconfont";
+	src: url("iconfont.woff?a6657a30d7b1d331feb26e6bbd820d47") format("woff");
+}
+
+.flxvIcon {
+	line-height: 1;
+}
+
+.flxvIcon:before {
+	font-family: iconfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.flxvArrow:before {
+	content: "\f101";
+}
+.flxvBasket:before {
+	content: "\f102";
+}
+.flxvCar:before {
+	content: "\f103";
+}
+.flxvCash:before {
+	content: "\f104";
+}
+.flxvClose:before {
+	content: "\f105";
+}
+.flxvCross:before {
+	content: "\f106";
+}
+.flxvFilter:before {
+	content: "\f107";
+}
+.flxvFullLogo:before {
+	content: "\f108";
+}
+.flxvGamburger:before {
+	content: "\f109";
+}
+.flxvGamburgerClose:before {
+	content: "\f10a";
+}
+.flxvLike:before {
+	content: "\f10b";
+}
+.flxvPlacemark:before {
+	content: "\f10c";
+}
+.flxvSearch:before {
+	content: "\f10d";
+}
+.flxvSorting:before {
+	content: "\f10e";
+}
+.flxvWorld:before {
+	content: "\f10f";
+}

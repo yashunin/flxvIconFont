@@ -2,6 +2,6 @@
     viewBox="0 0 24 24" stroke="none" >
     <g fill="none"  fill-rule="evenodd" >
         <path fill="#522915" d="M14.5 7l.5.5-5 4.513 5 4.487-.5.5L9 12.013z" />
-        <path d="M0 0h24v24H0z" stroke="none" />
+        
     </g>
 </svg>

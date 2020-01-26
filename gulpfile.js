@@ -22,7 +22,7 @@ gulp.task('Iconfont', function (done) {
       files: allIcons,
       fontHeight: 1000,
       templateOptions: {
-        classPrefix: 'flxv',
+        classPrefix: 'flxvIcon-',
         baseSelector: '.flxvIcon',
         // classPrefix: 'iconfont-',
         // baseSelector: '.iconfont',

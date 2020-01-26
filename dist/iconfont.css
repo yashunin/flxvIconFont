@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "iconfont";
-	src: url("iconfont.woff?a6657a30d7b1d331feb26e6bbd820d47") format("woff");
+	src: url("iconfont.woff?b2aa89c144c8eedcb44b863bc04f82d8") format("woff");
 }
 
 .flxvIcon {
@@ -14,48 +14,51 @@
 	vertical-align: top;
 }
 
-.flxvArrow:before {
+.flxvIcon-Arrow:before {
 	content: "\f101";
 }
-.flxvBasket:before {
+.flxvIcon-Arrow333:before {
 	content: "\f102";
 }
-.flxvCar:before {
+.flxvIcon-Basket:before {
 	content: "\f103";
 }
-.flxvCash:before {
+.flxvIcon-Car:before {
 	content: "\f104";
 }
-.flxvClose:before {
+.flxvIcon-Cash:before {
 	content: "\f105";
 }
-.flxvCross:before {
+.flxvIcon-Close:before {
 	content: "\f106";
 }
-.flxvFilter:before {
+.flxvIcon-Cross:before {
 	content: "\f107";
 }
-.flxvFullLogo:before {
+.flxvIcon-Filter:before {
 	content: "\f108";
 }
-.flxvGamburger:before {
+.flxvIcon-FullLogo:before {
 	content: "\f109";
 }
-.flxvGamburgerClose:before {
+.flxvIcon-Gamburger:before {
 	content: "\f10a";
 }
-.flxvLike:before {
+.flxvIcon-GamburgerClose:before {
 	content: "\f10b";
 }
-.flxvPlacemark:before {
+.flxvIcon-Like:before {
 	content: "\f10c";
 }
-.flxvSearch:before {
+.flxvIcon-Placemark:before {
 	content: "\f10d";
 }
-.flxvSorting:before {
+.flxvIcon-Search:before {
 	content: "\f10e";
 }
-.flxvWorld:before {
+.flxvIcon-Sorting:before {
 	content: "\f10f";
+}
+.flxvIcon-World:before {
+	content: "\f110";
 }

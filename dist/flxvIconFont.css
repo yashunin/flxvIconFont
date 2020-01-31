@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "iconfont";
-	src: url("iconfont.woff?b2aa89c144c8eedcb44b863bc04f82d8") format("woff");
+	font-family: "flxvIconFont";
+	src: url("flxvIconFont.woff?ecdb5d1c5843448ae6ca3c7531ac27bf") format("woff");
 }
 
 .flxvIcon {
@@ -8,7 +8,7 @@
 }
 
 .flxvIcon:before {
-	font-family: iconfont !important;
+	font-family: flxvIconFont !important;
 	font-style: normal;
 	font-weight: normal !important;
 	vertical-align: top;
@@ -17,48 +17,45 @@
 .flxvIcon-Arrow:before {
 	content: "\f101";
 }
-.flxvIcon-Arrow333:before {
+.flxvIcon-Basket:before {
 	content: "\f102";
 }
-.flxvIcon-Basket:before {
+.flxvIcon-Car:before {
 	content: "\f103";
 }
-.flxvIcon-Car:before {
+.flxvIcon-Cash:before {
 	content: "\f104";
 }
-.flxvIcon-Cash:before {
+.flxvIcon-Close:before {
 	content: "\f105";
 }
-.flxvIcon-Close:before {
+.flxvIcon-Cross:before {
 	content: "\f106";
 }
-.flxvIcon-Cross:before {
+.flxvIcon-Filter:before {
 	content: "\f107";
 }
-.flxvIcon-Filter:before {
+.flxvIcon-FullLogo:before {
 	content: "\f108";
 }
-.flxvIcon-FullLogo:before {
+.flxvIcon-Gamburger:before {
 	content: "\f109";
 }
-.flxvIcon-Gamburger:before {
+.flxvIcon-GamburgerClose:before {
 	content: "\f10a";
 }
-.flxvIcon-GamburgerClose:before {
+.flxvIcon-Like:before {
 	content: "\f10b";
 }
-.flxvIcon-Like:before {
+.flxvIcon-Placemark:before {
 	content: "\f10c";
 }
-.flxvIcon-Placemark:before {
+.flxvIcon-Search:before {
 	content: "\f10d";
 }
-.flxvIcon-Search:before {
+.flxvIcon-Sorting:before {
 	content: "\f10e";
 }
-.flxvIcon-Sorting:before {
-	content: "\f10f";
-}
 .flxvIcon-World:before {
-	content: "\f110";
+	content: "\f10f";
 }

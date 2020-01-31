@@ -19,13 +19,12 @@ gulp.task('Iconfont', function (done) {
     }
 
     webfontsGenerator({
+      fontName: 'flxvIconFont',
       files: allIcons,
       fontHeight: 1000,
       templateOptions: {
         classPrefix: 'flxvIcon-',
         baseSelector: '.flxvIcon',
-        // classPrefix: 'iconfont-',
-        // baseSelector: '.iconfont',
         names: htmlIcons
       },
       order: ['woff'],
@@ -38,11 +37,11 @@ gulp.task('Iconfont', function (done) {
       } else {
         console.log('Done!');
 
-        fs.unlink('dist/iconfont.svg', (err) => {
-          console.log('dist/iconfont.svg was deleted');
+        fs.unlink('dist/flxvIconFont.svg', (err) => {
+          console.log('dist/flxvIconFont.svg was deleted');
         })
-        fs.unlink('dist/iconfont.ttf', (err) => {
-          console.log('dist/iconfont.ttf was deleted');
+        fs.unlink('dist/flxvIconFont.ttf', (err) => {
+          console.log('dist/flxvIconFont.ttf was deleted');
         })
       }
     })

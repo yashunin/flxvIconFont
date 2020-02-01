@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "flxvIconFont";
-	src: url("flxvIconFont.woff?85fa2bb7f139f6a7cff4f45d6093924e") format("woff");
+	src: url("flxvIconFont.woff?65cfdbe609e054c6b26591c9983a4b82") format("woff");
 }
 
 .flxvIcon {
@@ -14,48 +14,30 @@
 	vertical-align: top;
 }
 
-.flxvIcon-Arrow:before {
+.flxvIcon-arrow:before {
 	content: "\f101";
 }
 .flxvIcon-basket:before {
 	content: "\f102";
 }
-.flxvIcon-Car:before {
+.flxvIcon-close:before {
 	content: "\f103";
 }
-.flxvIcon-cash:before {
+.flxvIcon-filter:before {
 	content: "\f104";
 }
-.flxvIcon-close:before {
+.flxvIcon-gamburger:before {
 	content: "\f105";
 }
-.flxvIcon-cross:before {
+.flxvIcon-like:before {
 	content: "\f106";
 }
-.flxvIcon-filter:before {
+.flxvIcon-placemark:before {
 	content: "\f107";
 }
-.flxvIcon-fullLogo:before {
+.flxvIcon-search:before {
 	content: "\f108";
 }
-.flxvIcon-Gamburger:before {
+.flxvIcon-sorting:before {
 	content: "\f109";
-}
-.flxvIcon-GamburgerClose:before {
-	content: "\f10a";
-}
-.flxvIcon-like:before {
-	content: "\f10b";
-}
-.flxvIcon-placemark:before {
-	content: "\f10c";
-}
-.flxvIcon-search:before {
-	content: "\f10d";
-}
-.flxvIcon-Sorting:before {
-	content: "\f10e";
-}
-.flxvIcon-World:before {
-	content: "\f10f";
 }

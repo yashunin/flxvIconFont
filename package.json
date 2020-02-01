@@ -1,26 +1,10 @@
 {
-  "name": "SVGFont",
+  "name": "flxvIconFonr",
   "version": "1.0.0",
-  "description": "Библиотека для преобразования SVG иконок в шрифт",
+  "description": "Инструмент создания шрифта для web cfqnf",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wwwcoderwww/SVGFont.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wwwcoderwww/SVGFont/issues"
-  },
-  "homepage": "https://github.com/wwwcoderwww/SVGFont#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-iconfont": "^10.0.3",
-    "gulp-svgicons2svgfont": "^6.0.0",
     "webfonts-generator": "^0.4.0"
   },
   "dependencies": {

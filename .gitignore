@@ -1,2 +1,4 @@
 node_modules/
-package-lock.json
+dist/flxvIconFont.svg
+dist/flxvIconFont.ttf
+dist/flxvIconFont.html

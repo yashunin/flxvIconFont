@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "flxvIconFont";
+	src: url("flxvIconFont.woff?ba4dc6852be91b17fc13874801cdcb98") format("woff");
+}
+
+.flxvIcon {
+	line-height: 1;
+}
+
+.flxvIcon:before {
+	font-family: flxvIconFont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.flxvIcon-back:before {
+	content: "\f101";
+}
+.flxvIcon-close:before {
+	content: "\f102";
+}
+.flxvIcon-funnel:before {
+	content: "\f103";
+}
+.flxvIcon-heart:before {
+	content: "\f104";
+}
+.flxvIcon-menu:before {
+	content: "\f105";
+}
+.flxvIcon-search:before {
+	content: "\f106";
+}
+.flxvIcon-shop:before {
+	content: "\f107";
+}
+.flxvIcon-shopping-bag:before {
+	content: "\f108";
+}
+.flxvIcon-sort:before {
+	content: "\f109";
+}

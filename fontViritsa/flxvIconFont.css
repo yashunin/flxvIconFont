@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "flxvIconFont";
-	src: url("flxvIconFont.woff?ba4dc6852be91b17fc13874801cdcb98") format("woff");
+	src: url("flxvIconFont.woff?c206937bd1956f7350dee05f2d9a7346") format("woff");
 }
 
 .flxvIcon {
@@ -20,24 +20,39 @@
 .flxvIcon-close:before {
 	content: "\f102";
 }
-.flxvIcon-funnel:before {
+.flxvIcon-down:before {
 	content: "\f103";
 }
-.flxvIcon-heart:before {
+.flxvIcon-funnel:before {
 	content: "\f104";
 }
-.flxvIcon-menu:before {
+.flxvIcon-heart:before {
 	content: "\f105";
 }
-.flxvIcon-search:before {
+.flxvIcon-left:before {
 	content: "\f106";
 }
-.flxvIcon-shop:before {
+.flxvIcon-menu:before {
 	content: "\f107";
 }
-.flxvIcon-shopping-bag:before {
+.flxvIcon-ok:before {
 	content: "\f108";
 }
-.flxvIcon-sort:before {
+.flxvIcon-right:before {
 	content: "\f109";
+}
+.flxvIcon-search:before {
+	content: "\f10a";
+}
+.flxvIcon-shop:before {
+	content: "\f10b";
+}
+.flxvIcon-shopping-bag:before {
+	content: "\f10c";
+}
+.flxvIcon-sort:before {
+	content: "\f10d";
+}
+.flxvIcon-up:before {
+	content: "\f10e";
 }
